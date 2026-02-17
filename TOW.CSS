@@ -1,0 +1,34 @@
+/* TOW.CSS - עיצוב דף אודות */
+
+:root{ --pink1:#fff0f6; --pink3:#f48fb1; --pink4:#ec407a; }
+
+body{ font-family: Arial, sans-serif; background: var(--pink1); }
+.bg-pink{ background: var(--pink3) !important; }
+.nav-logo{ height:40px; width:auto; }
+
+/* כותרת עם רקע */
+.page-hero{
+  margin-top:56px;
+  padding:70px 0;
+  background: linear-gradient(rgba(244,143,177,0.75), rgba(236,64,122,0.45)),
+              url("../img/רקע.jpg") center/cover no-repeat;
+}
+
+/* כרטיס */
+.card-soft{
+  background: var(--pink1);
+  border:0;
+  border-radius:16px;
+  box-shadow:0 8px 18px rgba(236,64,122,0.12);
+}
+
+/* תמונה גדולה - גובה קבוע שלא יקפוץ */
+.big-img{
+  width:100%;
+  height:320px;
+  object-fit:cover;
+  border-radius:16px;
+}
+
+/* פוטר */
+.footer-pink{ background: linear-gradient(135deg, var(--pink3), var(--pink4)); }
